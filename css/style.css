@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -50,10 +50,13 @@ body {
 .btn:link,
 .btn:visited {
   display: inline-block;
+
   text-decoration: none;
   font-size: 2rem;
+  font-weight: 600;
   padding: 1.6rem 3.2rem;
   border-radius: 150px;
+
   transition: background-color 0.3s;
   -webkit-transition: background-color 0.3s;
   -moz-transition: background-color 0.3s;
