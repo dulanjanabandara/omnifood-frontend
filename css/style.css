@@ -546,3 +546,12 @@
 .cta-form input::placeholder {
   color: #aaa;
 }
+
+.cta *:focus {
+  /* Never do this only */
+  /* outline: none; */
+
+  /* Do this instead */
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
